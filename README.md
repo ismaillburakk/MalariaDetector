@@ -4,7 +4,7 @@ The objective of this project is to develop an artificial intelligence model tha
 # 2. Dataset:
 The dataset used in this project consists of microscopic images of cells, specifically infected and uninfected cells. The dataset size is 27,558 images, with each image having dimensions of 50x50 pixels and RGB color channels. link of dataset: https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria
 
-#3. Method:
+# 3. Method:
 Model Architecture: The model used in this project is a custom-designed convolutional neural network (CNN). It consists of three convolutional layers with 16, 32, and 64 filters, respectively, followed by max-pooling layers. The output from the last convolutional layer is flattened and passed through two fully connected (dense) layers with 500 and 1 unit(s), respectively. ReLU activation function is used in the convolutional and dense layers, except for the output layer which uses a sigmoid activation function.
 
 Model Training Strategy: The model is trained using supervised learning, where the input images are labeled with the corresponding class (infected or uninfected). This choice is appropriate because the dataset contains labeled examples for training.
